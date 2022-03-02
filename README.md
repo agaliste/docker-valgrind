@@ -4,6 +4,8 @@ This is a container that holds Valgrind and all the requirements to compile and 
 
 Compatible with M1 Macs too!! 🥳
 
+THIS IS A WORK IN PROGRESS!
+
 ## How to use
 
 First build the container:
@@ -12,9 +14,8 @@ First build the container:
 docker build .
 ```
 
-Then run the container mounting the volume were your source code is located and exec to it:
+Then to get into it run:
 
 ``` shell
-docker run -v $PWD:/valgrind -d <containername>
-docker exec <containername>
+docker exec -it <containername> bash
 ```
