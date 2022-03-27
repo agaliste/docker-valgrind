@@ -1,6 +1,6 @@
 # Valgrind docker container
 
-A container that holds Valgrind, has all the requirements to compile a C/C++ program and is compatible with M1 Macs too!! 🥳 
+A container that holds Valgrind, has all the requirements to build C/C++ projetcs, use CMake and is compatible with M1 Macs too!! 🥳 
 
 ## What does the container include?
 
