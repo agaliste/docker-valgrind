@@ -1,4 +1,5 @@
 FROM debian:bullseye-slim
+LABEL maintainer "some@somedevv.com"
 
 RUN apt update \
   && apt upgrade \
