@@ -1,4 +1,4 @@
-FROM debian:bullseye-slim
+FROM debian:11.6-slim
 LABEL maintainer "some@somedevv.com"
 
 RUN apt-get update \
