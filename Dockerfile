@@ -1,4 +1,4 @@
-FROM debian:12.9-slim
+FROM debian:12.12-slim
 LABEL maintainer "agalisteo@somelabs.dev"
 LABEL description="Debian-based image with Valgrind and C/C++ tools"
 
